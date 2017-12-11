@@ -577,6 +577,11 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.3s;
   top: 2px;
 }
+@media screen and (max-width: 768px) {
+  #fh5co-work-section .item-grid {
+    float: inherit;
+  }
+}
 #fh5co-work-section .item-grid .image {
   height: 300px;
   overflow: hidden;
@@ -1218,8 +1223,22 @@ h1, h2, h3, h4, h5, h6, figure {
   opacity: 0;
 }
 
-.modal{
+.modal {
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-dialog {
+  width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .modal-dialog {
+    width: 100%;
+  }
+}
+
+.modal-body {
+  height: 400px;
 }
 
 .blur {

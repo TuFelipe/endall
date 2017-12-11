@@ -3,17 +3,22 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="modal-services">Modal title</h5>
-        <!--
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      -->
+        <h5 class="modal-title" id="modal-services">Endoscopia Industrial</h5>
       </div>
       <div class="modal-body">
-        ...
+        <div class="container col-md-12">
+          <div class="row">
+            <div class="col-md-4">
+              1
+            </div>
+            <div class="col-md-8">
+              2
+            </div>
+          </div>
+        </div>
       </div>
       <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-dismiss="modal" onclick="BlurOff()">Pedir orçamento</button>
         <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="BlurOff()">Fechar</button>
       </div>
     </div>
