@@ -52,6 +52,7 @@
 
 	</head>
 	<body>
+	<button onclick="topFunction()" id="myBtn" title="Voltar ao topo"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
 	<!-- Modal -->
 	<?php include 'modal-services.php' ?>
 
@@ -107,7 +108,7 @@
   	</div>
 	</aside>
 
-	<div id="fh5co-work-section" class="fh5co-light-grey-section">
+	<div id="servicos" class="fh5co-light-grey-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
@@ -189,6 +190,66 @@
 		</div>
 	</div>
 
+	<div id="sobre" class="fh5co-about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
+					<h2>Sobre nós</h2>
+					<p>Conheça a Endall.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-offset-3 text-center animate-box">
+					<div class="about-text">
+						<article>
+							A ENDALL INSPEÇÕES E SERVIÇOS situada na cidade de ARARAS - SP
+							é uma jovem empresa que tem como proposta de trabalho de
+							maneira confiável e independente, consultoria, treinamento e
+							inspeções técnicas, nos mais diversos ramo da indústria.
+							<br>
+							Contamos com inspetores e engenheiro qualificados e certificados
+							pelos SNQC, ASNT e CREA.
+							<br>
+							<h4>MISSÃO</h4>
+							A principal missão da ENDALL é manter a excelência nas soluções
+							oferecidas e tornarmos uma empresa referente no mercado de
+							engenharia de inspeção e serviços industriais.
+							<br>
+							<h4>VALORES</h4>
+							O Principal Valor da empresa é honrar com nossos compromissos,
+							assegurar a qualidade dos serviços prestados, priorizar a busca de
+							conhecimento continuo e sempre buscar a satisfação de nossos
+							clientes.
+						</article>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="clientes" class="fh5co-light-grey-section">
+		<div class="container" id="clientes">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
+					<h2>Clientes</h2>
+					<p>Nossos clientes e parceiros</p>
+				</div>
+			</div>
+			<div class="row">
+	  		<section class="customer-logos slider animate-box">
+			    <div class="slide"><img src="http://clashroyale.news/img/cards/g/20.png"></div>
+			    <div class="slide"><img src="http://clashroyale.news/img/cards/g/20.png"></div>
+			    <div class="slide"><img src="http://clashroyale.news/img/cards/g/20.png"></div>
+			    <div class="slide"><img src="http://clashroyale.news/img/cards/g/20.png"></div>
+			    <div class="slide"><img src="http://clashroyale.news/img/cards/g/20.png"></div>
+			    <div class="slide"><img src="http://clashroyale.news/img/cards/g/20.png"></div>
+			    <div class="slide"><img src="http://clashroyale.news/img/cards/g/20.png"></div>
+			    <div class="slide"><img src="http://clashroyale.news/img/cards/g/20.png"></div>
+	  		</section>
+			</div>
+		</div>
+	</div>
+
 	<div id="fh5co-testimony-section">
 		<div class="container">
 			<div class="row">
@@ -256,12 +317,41 @@
 	</div>
 
 	<script>
+	/*Blur background when modal active*/
 	function BlurOn() {
 		$("#fh5co-page").addClass("blur");
 	}
 	function BlurOff() {
 		$("#fh5co-page").removeClass("blur")
 	}
+	</script>
+
+	<script>
+	/*Scroll transition to anchor*/
+	$(document).on('click', '.scroll-link', function(event){
+         event.preventDefault();
+         $('html, body').animate({
+             scrollTop: $( $.attr(this, 'href') ).offset().top
+         }, 500);
+     });
+	</script>
+
+	<script>
+		/*Back to top button*/
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		        document.getElementById("myBtn").style.display = "block";
+		    } else {
+		        document.getElementById("myBtn").style.display = "none";
+		    }
+		}
+
+		function topFunction() {
+		    document.body.scrollTop = 0;
+		    document.documentElement.scrollTop = 0;
+		}
 	</script>
 
 	<!-- jQuery -->
@@ -276,6 +366,12 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<!-- Flexslider -->
 	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Slick slider -->
+	<script src="js/slick.js"></script>
+	<!-- Logo slider -->
+	<script src="js/logo-carousel.js"></script>
+	<!-- Font Awesome -->
+	<script src="https://use.fontawesome.com/0fa380ff2a.js"></script>
 
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>

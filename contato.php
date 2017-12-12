@@ -84,8 +84,8 @@
 				<div class="col-md-3">
 					<h3>Onde nos encontrar?</h3>
 					<ul class="contact-info">
-						<li><i class="icon-map"></i>198 West 21th Street, Suite 721 New York NY 10016</li>
-						<li><i class="icon-phone"></i>(19)99999-9999</li>
+						<li><i class="icon-map"></i>R. Pedro Buzo, 153 - Jardim Bela Vista, Araras - SP<br>CEP 13.609-540</li>
+						<li><i class="icon-phone"></i>(19)99908-8253</li>
 						<li><i class="icon-envelope"></i><a href="#">contato@endall.com.br</a></li>
 						<li><i class="icon-globe"></i><a href="#">www.endall.com.br</a></li>
 					</ul>
@@ -118,7 +118,7 @@
 		</div>
 	</div>
 
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5218.200707753986!2d-47.384829050473414!3d-22.360231713922502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c870cc12a095e9%3A0x888552ad0cb59b45!2sAraras+-+Jardim+Europa%2C+Araras+-+SP!5e0!3m2!1spt-BR!2sbr!4v1513000618350" frameborder="0" allowfullscreen id="map" class="animate-box" data-animate-effect="fadeIn"></iframe>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7378.311315783608!2d-47.38009889335488!3d-22.385488652939546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c879f957ae3cdf%3A0x47cb0283ebd680e!2sR.+Pedro+Buzo%2C+153+-+Jardim+Bela+Vista%2C+Araras+-+SP!5e0!3m2!1spt-BR!2sbr!4v1513080535023" frameborder="0" allowfullscreen id="map" class="animate-box" data-animate-effect="fadeIn"></iframe>
 
 	<?php include 'footer.php'; ?>
 	</div>
