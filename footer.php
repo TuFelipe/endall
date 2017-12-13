@@ -33,7 +33,6 @@
       </ul>
     </div>
 
-
     <div class="col-md-12 fh5co-copyright text-center">
       <p>&copy; Endall - 2017</a></span></p>
     </div>

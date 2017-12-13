@@ -1,4 +1,4 @@
-
+<?php $root = '../endall/'; ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -52,7 +52,21 @@
 
 
 	<div id="fh5co-page">
-	<?php include 'header.php'; ?>
+		<header id="fh5co-header" role="banner">
+		  <div class="container">
+		    <div class="header-inner">
+		      <h1><a href="index.html" id="logo">Endall</a></h1>
+		      <nav role="navigation">
+		        <ul>
+		          <li><a href="<?php echo $root;?>#servicos" class="scroll-link">Serviços</a></li>
+		          <li><a href="<?php echo $root;?>#sobre" class="scroll-link">Sobre nós</a></li>
+		          <li><a href="<?php echo $root;?>#clientes" class="scroll-link">Clientes</a></li>
+		          <li class="cta"><a href="contato.php">Contato</a></li>
+		        </ul>
+		      </nav>
+		    </div>
+		  </div>
+		</header>
 
 
 	<aside id="fh5co-hero" class="js-fullheight">

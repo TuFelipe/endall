@@ -65,7 +65,21 @@
 	</svg>
 
 	<div id="fh5co-page">
-	<?php include 'header.php' ?>
+		<header id="fh5co-header" role="banner">
+		  <div class="container">
+		    <div class="header-inner">
+		      <h1><a href="index.html" id="logo">Endall</a></h1>
+		      <nav role="navigation">
+		        <ul>
+		          <li><a href="#servicos" class="scroll-link">Serviços</a></li>
+		          <li><a href="#sobre" class="scroll-link">Sobre nós</a></li>
+		          <li><a href="#clientes" class="scroll-link">Clientes</a></li>
+		          <li class="cta"><a href="contato.php">Contato</a></li>
+		        </ul>
+		      </nav>
+		    </div>
+		  </div>
+		</header>
 
 	<div class="container">
 
@@ -108,88 +122,6 @@
   	</div>
 	</aside>
 
-	<div id="servicos" class="fh5co-light-grey-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
-					<h2>Serviços</h2>
-					<p>Conheça nossos principais serviços.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 animate-box">
-					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-services" onclick="BlurOn()">
-						<div class="image" style="background-image: url(images/image_1.jpg)"></div>
-						<div class="v-align">
-							<div class="v-align-middle">
-								<h3 class="title">Endoscopia Industrial</h3>
-								<h5 class="category">Endoscopia Industrial</h5>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 animate-box">
-					<a href="#" class="item-grid text-center">
-						<div class="image" style="background-image: url(images/image_2.jpg)"></div>
-						<div class="v-align">
-							<div class="v-align-middle">
-								<h3 class="title">Soldagem</h3>
-								<h5 class="category">Soldagem</h5>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 animate-box">
-					<a href="#" class="item-grid text-center">
-						<div class="image" style="background-image: url(images/image_3.jpg)"></div>
-						<div class="v-align">
-							<div class="v-align-middle">
-								<h3 class="title">Fiscalização de Obras</h3>
-								<h5 class="category">Fiscalização de Obras</h5>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 animate-box">
-					<a href="#" class="item-grid text-center">
-						<div class="image" style="background-image: url(images/image_4.jpg)"></div>
-						<div class="v-align">
-							<div class="v-align-middle">
-								<h3 class="title">Serviço</h3>
-								<h5 class="category">Serviço</h5>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 animate-box">
-					<a href="#" class="item-grid text-center">
-						<div class="image" style="background-image: url(images/image_5.jpg)"></div>
-						<div class="v-align">
-							<div class="v-align-middle">
-								<h3 class="title">Serviço</h3>
-								<h5 class="category">Serviço</h5>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 animate-box">
-					<a href="#" class="item-grid text-center">
-						<div class="image" style="background-image: url(images/image_6.jpg)"></div>
-						<div class="v-align">
-							<div class="v-align-middle">
-								<h3 class="title">Serviço</h3>
-								<h5 class="category">Serviço</h5>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-12 text-center animate-box">
-					<p><a href="#" class="btn btn-primary with-arrow">Mais serviços <i class="icon-arrow-right"></i></a></p>
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<div id="sobre" class="fh5co-about">
 		<div class="container">
 			<div class="row">
@@ -227,7 +159,122 @@
 		</div>
 	</div>
 
-	<div id="clientes" class="fh5co-light-grey-section">
+	<div id="servicos" class="fh5co-light-grey-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
+					<h2>Serviços</h2>
+					<p>Conheça nossos principais serviços.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 animate-box">
+					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-services" onclick="BlurOn()">
+						<div class="image" style="background-image: url(images/image_1.jpg)"></div>
+						<div class="v-align">
+							<div class="v-align-middle">
+								<h3 class="title">Endoscopia<br>Industrial</h3>
+								<h5 class="category">...</h5>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 animate-box">
+					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-services" onclick="BlurOn()">
+						<div class="image" style="background-image: url(images/image_2.jpg)"></div>
+						<div class="v-align">
+							<div class="v-align-middle">
+								<h3 class="title">Endoscopia em tubulações sanitárias</h3>
+								<h5 class="category">...</h5>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 animate-box">
+					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-services" onclick="BlurOn()">
+						<div class="image" style="background-image: url(images/image_3.jpg)"></div>
+						<div class="v-align">
+							<div class="v-align-middle">
+								<h3 class="title">Ensaio visual dimensional (EVS)</h3>
+								<h5 class="category">...</h5>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 animate-box">
+					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-services" onclick="BlurOn()">
+						<div class="image" style="background-image: url(images/image_4.jpg)"></div>
+						<div class="v-align">
+							<div class="v-align-middle">
+								<h3 class="title">Ensaio por liquido penetrantes (LP)</h3>
+								<h5 class="category">...</h5>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 animate-box">
+					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-services" onclick="BlurOn()">
+						<div class="image" style="background-image: url(images/image_5.jpg)"></div>
+						<div class="v-align">
+							<div class="v-align-middle">
+								<h3 class="title">Ensaio por partículas magnéticas (PM)</h3>
+								<h5 class="category">...</h5>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 animate-box">
+					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-services" onclick="BlurOn()">
+						<div class="image" style="background-image: url(images/image_6.jpg)"></div>
+						<div class="v-align">
+							<div class="v-align-middle">
+								<h3 class="title">Inspeção/Fiscalização de Fabricação</h3>
+								<h5 class="category">...</h5>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 animate-box">
+					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-services" onclick="BlurOn()">
+						<div class="image" style="background-image: url(images/image_6.jpg)"></div>
+						<div class="v-align">
+							<div class="v-align-middle">
+								<h3 class="title">Ensaio por Ultrassom</h3>
+								<h5 class="category">...</h5>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 animate-box">
+					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-services" onclick="BlurOn()">
+						<div class="image" style="background-image: url(images/image_6.jpg)"></div>
+						<div class="v-align">
+							<div class="v-align-middle">
+								<h3 class="title">Soldagem</h3>
+								<h5 class="category">...</h5>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 animate-box">
+					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-services" onclick="BlurOn()">
+						<div class="image" style="background-image: url(images/image_6.jpg)"></div>
+						<div class="v-align">
+							<div class="v-align-middle">
+								<h3 class="title">Equipamentos</h3>
+								<h5 class="category">...</h5>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-12 text-center animate-box">
+					<p><a href="#" class="btn btn-primary with-arrow">Mais serviços <i class="icon-arrow-right"></i></a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="clientes">
 		<div class="container" id="clientes">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
@@ -237,20 +284,20 @@
 			</div>
 			<div class="row">
 	  		<section class="customer-logos slider animate-box">
-			    <div class="slide"><img src="http://clashroyale.news/img/cards/g/20.png"></div>
-			    <div class="slide"><img src="http://clashroyale.news/img/cards/g/20.png"></div>
-			    <div class="slide"><img src="http://clashroyale.news/img/cards/g/20.png"></div>
-			    <div class="slide"><img src="http://clashroyale.news/img/cards/g/20.png"></div>
-			    <div class="slide"><img src="http://clashroyale.news/img/cards/g/20.png"></div>
-			    <div class="slide"><img src="http://clashroyale.news/img/cards/g/20.png"></div>
-			    <div class="slide"><img src="http://clashroyale.news/img/cards/g/20.png"></div>
-			    <div class="slide"><img src="http://clashroyale.news/img/cards/g/20.png"></div>
+			    <div class="slide"><img src="images/clientes/nestle.png"></div>
+			    <div class="slide"><img src="images/clientes/dpa.jpg"></div>
+			    <div class="slide"><img src="images/clientes/danone.png"></div>
+			    <div class="slide"><img src="images/clientes/garoto.jpg"></div>
+			    <div class="slide"><img src="images/clientes/scala.jpg"></div>
+			    <div class="slide"><img src="images/clientes/indusmont.jpg"></div>
+			    <div class="slide"><img src="images/clientes/jp.jpg"></div>
+			    <div class="slide"><img src="images/clientes/ca3m.png"></div>
 	  		</section>
 			</div>
 		</div>
 	</div>
 
-	<div id="fh5co-testimony-section">
+	<div id="fh5co-testimony-section" class="fh5co-light-grey-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">

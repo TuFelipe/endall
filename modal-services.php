@@ -9,10 +9,10 @@
         <div class="container col-md-12">
           <div class="row">
             <div class="col-md-4">
-              1
+              Foto
             </div>
             <div class="col-md-8">
-              2
+              Texto
             </div>
           </div>
         </div>
