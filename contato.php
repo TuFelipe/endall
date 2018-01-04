@@ -99,7 +99,8 @@
 					<h3>Onde nos encontrar?</h3>
 					<ul class="contact-info">
 						<li><i class="icon-map"></i>R. Pedro Buzo, 153 - Jardim Bela Vista, Araras - SP<br>CEP 13.609-540</li>
-						<li><i class="icon-phone"></i>(19)99908-8253</li>
+						<li><i class="icon-whatsapp"></i>(19)99908-8253</li>
+						<li><i class="icon-whatsapp"></i>(19)97145-2400</li>
 						<li><i class="icon-envelope"></i><a href="#">contato@endall.com.br</a></li>
 						<li><i class="icon-globe"></i><a href="#">www.endall.com.br</a></li>
 					</ul>

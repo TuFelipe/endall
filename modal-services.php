@@ -18,9 +18,9 @@
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-success" data-dismiss="modal" onclick="BlurOff()">Pedir orçamento</button>
+        <button type="button" class="btn btn-success" data-dismiss="modal" onclick="BlurOff()">Solicitar orçamento</button>
         <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="BlurOff()">Fechar</button>
-      </div>
+      </div>s
     </div>
   </div>
 </div>

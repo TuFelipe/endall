@@ -34,7 +34,8 @@
     </div>
 
     <div class="col-md-12 fh5co-copyright text-center">
-      <p>&copy; Endall - 2017</a></span></p>
+      <p>&copy; Endall - 2017</p>
+      <p>R. Pedro Buzo, 153 - Jardim Bela Vista, Araras - SP</p>
     </div>
 
   </div>
