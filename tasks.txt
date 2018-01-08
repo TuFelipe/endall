@@ -10,4 +10,4 @@
 7 - Galeria de fotos, endoscopia(fotos)
 8 - Revisar texto servicos
 9 - Trocar verde pelo azul endall
-10 - manter proporcao logo clientes
+10 - manter proporcao logo clientes X

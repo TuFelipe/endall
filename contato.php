@@ -55,7 +55,7 @@
 		<header id="fh5co-header" role="banner">
 		  <div class="container">
 		    <div class="header-inner">
-		      <h1><a href="index.html" id="logo">Endall</a></h1>
+		      <h1><a href="index.php" id="logo"><img src="images/logo.png" alt="" width="180" height="59"></a></h1>
 		      <nav role="navigation">
 		        <ul>
 		          <li><a href="<?php echo $root;?>#servicos" class="scroll-link">Serviços</a></li>
