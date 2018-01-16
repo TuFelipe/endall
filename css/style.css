@@ -20,6 +20,10 @@ body {
   background: #fff;
   height: 100%;
   position: relative;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 a {
@@ -104,21 +108,21 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-success {
-  background: #5cb85c;
+  background: #1a6cc2;
   color: #fff;
-  border: 2px solid #5cb85c;
+  border: 2px solid #1a6cc2;
 }
 .btn-success:hover, .btn-success:focus, .btn-success:active {
-  background: #4cae4c !important;
-  border-color: #4cae4c !important;
+  background: #1861ad !important;
+  border-color: #1861ad !important;
 }
 .btn-success.btn-outline {
   background: transparent;
-  color: #5cb85c;
-  border: 2px solid #5cb85c;
+  color: #1a6cc2;
+  border: 2px solid #1a6cc2;
 }
 .btn-success.btn-outline:hover, .btn-success.btn-outline:focus, .btn-success.btn-outline:active {
-  background: #5cb85c;
+  background: #1a6cc2;
   color: #fff;
 }
 
@@ -325,7 +329,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
-#logo{
+#logo {
   font-family: 'Audiowide', cursive;
   font-size: 32px;
   font-weight: 200;
@@ -370,7 +374,10 @@ h1, h2, h3, h4, h5, h6, figure {
   text-decoration: none;
   outline: none;
 }
-#fh5co-header h1, #fh5co-header nav {
+#fh5co-header h1 {
+  margin-top: 0.3em;
+}
+#fh5co-header nav {
   margin: 38px 0 0 0;
 }
 #fh5co-header nav {
@@ -1224,14 +1231,32 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 80%;
 }
 
-@media screen and (max-width: 768px) {
-  .modal-dialog {
-    width: 100%;
-  }
+.modal-dialog h3 {
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: black;
 }
 
 .modal-body {
   height: 400px;
+}
+
+#modal-inspecao .modal-body {
+  height: 1000px;
+}
+
+#modal-soldagem .modal-body {
+  height: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  .modal-dialog {
+    width: 100%;
+  }
+  .modal-body {
+    height: auto;
+  }
 }
 
 .blur {

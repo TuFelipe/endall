@@ -68,7 +68,7 @@
 		<header id="fh5co-header" role="banner">
 		  <div class="container">
 		    <div class="header-inner">
-		      <h1><a href="index.html" id="logo">Endall</a></h1>
+		      <h1><a href="index.php" id="logo"><img src="images/logo.png" alt="" width="180" height="59"></a></h1>
 		      <nav role="navigation">
 		        <ul>
 		          <li><a href="#servicos" class="scroll-link">Serviços</a></li>
@@ -93,7 +93,7 @@
 		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
 		   				<div class="slider-text-inner">
 		   					<h2>Endoscopia industrial.</h2>
-		   					<p><a href="#" class="btn btn-primary btn-lg">Saiba mais</a></p>
+		   					<p><a href="#" data-toggle="modal" data-target="#modal-endoscopia" onclick="BlurOn()" class="btn btn-primary btn-lg">Saiba mais</a></p>
 		   				</div>
 		   			</div>
 		   		</div>
@@ -103,7 +103,7 @@
 		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
 		   				<div class="slider-text-inner">
 		   					<h2>Soldagem.</h2>
-		   					<p><a href="#" class="btn btn-primary btn-lg">Saiba mais</a></p>
+		   					<p><a href="#" data-toggle="modal" data-target="#modal-soldagem" onclick="BlurOn()" class="btn btn-primary btn-lg">Saiba mais</a></p>
 		   				</div>
 		   			</div>
 		   		</div>
@@ -113,7 +113,7 @@
 		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
 		   				<div class="slider-text-inner">
 		   					<h2>Ensaios não destrutivos.</h2>
-		   					<p><a href="#" class="btn btn-primary btn-lg">Saiba mais</a></p>
+		   					<p><a href="#" data-toggle="modal" data-target="#modal-sanitaria" onclick="BlurOn()" class="btn btn-primary btn-lg">Saiba mais</a></p>
 		   				</div>
 		   			</div>
 		   		</div>
@@ -134,24 +134,17 @@
 				<div class="col-md-12 col-offset-3 text-center animate-box">
 					<div class="about-text">
 						<article>
-							A ENDALL INSPEÇÕES E SERVIÇOS situada na cidade de ARARAS - SP
-							é uma jovem empresa que tem como proposta de trabalho de
-							maneira confiável e independente, consultoria, treinamento e
-							inspeções técnicas, nos mais diversos ramo da indústria.
-							<br>
-							Contamos com inspetores e engenheiro qualificados e certificados
-							pelos SNQC, ASNT e CREA.
-							<br>
-							<h4>MISSÃO</h4>
-							A principal missão da ENDALL é manter a excelência nas soluções
-							oferecidas e tornarmos uma empresa referente no mercado de
-							engenharia de inspeção e serviços industriais.
-							<br>
-							<h4>VALORES</h4>
-							O Principal Valor da empresa é honrar com nossos compromissos,
-							assegurar a qualidade dos serviços prestados, priorizar a busca de
-							conhecimento continuo e sempre buscar a satisfação de nossos
-							clientes.
+						Oferecemos serviços de inspeção, diagnóstico e monitoramento industrial.
+						A ENDALL INSPEÇÕES E SERVIÇOS, situada na cidade de ARARAS-SP, trabalha de maneira confiável e independente, oferencendo consultoria, treinamentos e inspeções técnicas, nos mais diversos segmentos da indústria.
+						<br>
+						Contamos com Inspetores e Engenheiro qualificados e certificados pelo SNQC, ASNT e CREA.
+						<br><br>
+						<h4>MISSÃO</h4>
+						Manter a excelência nos serviços prestados, buscando ser referência no mercado da Engenharia de inspeções e serviços industriais.
+						<h4>VISÃO</h4>
+						Buscar crescimento e reconhecimento intensivo da empresa no mercado ao longo dos anos.<br>Oferecendo serviços de alta qualidade, assim, conquistando a confiança dos clientes.
+						<h4>VALORES</h4>
+						Honrar nossos compromissos, assegurando a qualidade dos serviços prestados,<br>priorizando a busca de conhecimento contínuo e a satisfação de nossos clientes.
 						</article>
 					</div>
 				</div>
@@ -169,100 +162,100 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4 animate-box">
-					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-services" onclick="BlurOn()">
-						<div class="image" style="background-image: url(images/image_1.jpg)"></div>
+					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-endoscopia" onclick="BlurOn()">
+						<div class="image" style="background-image: url(images/endoscopia1.jpg)"></div>
 						<div class="v-align">
 							<div class="v-align-middle">
 								<h3 class="title">Endoscopia<br>Industrial</h3>
-								<h5 class="category">...</h5>
+								<!-- <h5 class="category">...</h5> -->
 							</div>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 animate-box">
-					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-services" onclick="BlurOn()">
-						<div class="image" style="background-image: url(images/image_2.jpg)"></div>
+					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-sanitaria" onclick="BlurOn()">
+						<div class="image" style="background-image: url(images/manifold.jpg)"></div>
 						<div class="v-align">
 							<div class="v-align-middle">
 								<h3 class="title">Endoscopia em tubulações sanitárias</h3>
-								<h5 class="category">...</h5>
+								<!-- <h5 class="category">...</h5> -->
 							</div>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 animate-box">
-					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-services" onclick="BlurOn()">
-						<div class="image" style="background-image: url(images/image_3.jpg)"></div>
+					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-dimensional" onclick="BlurOn()">
+						<div class="image" style="background-image: url(images/ensaio.jpg)"></div>
 						<div class="v-align">
 							<div class="v-align-middle">
 								<h3 class="title">Ensaio visual dimensional (EVS)</h3>
-								<h5 class="category">...</h5>
+								<!-- <h5 class="category">...</h5> -->
 							</div>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 animate-box">
-					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-services" onclick="BlurOn()">
-						<div class="image" style="background-image: url(images/image_4.jpg)"></div>
+					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-liquidos" onclick="BlurOn()">
+						<div class="image" style="background-image: url(images/liquido.jpg)"></div>
 						<div class="v-align">
 							<div class="v-align-middle">
-								<h3 class="title">Ensaio por liquido penetrantes (LP)</h3>
-								<h5 class="category">...</h5>
+								<h3 class="title">Ensaio por líquidos penetrantes (LP)</h3>
+								<!-- <h5 class="category">...</h5> -->
 							</div>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 animate-box">
-					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-services" onclick="BlurOn()">
-						<div class="image" style="background-image: url(images/image_5.jpg)"></div>
+					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-particulas" onclick="BlurOn()">
+						<div class="image" style="background-image: url(images/particulas.jpg)"></div>
 						<div class="v-align">
 							<div class="v-align-middle">
 								<h3 class="title">Ensaio por partículas magnéticas (PM)</h3>
-								<h5 class="category">...</h5>
+								<!-- <h5 class="category">...</h5> -->
 							</div>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 animate-box">
-					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-services" onclick="BlurOn()">
-						<div class="image" style="background-image: url(images/image_6.jpg)"></div>
+					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-inspecao" onclick="BlurOn()">
+						<div class="image" style="background-image: url(images/inspecao.jpg)"></div>
 						<div class="v-align">
 							<div class="v-align-middle">
 								<h3 class="title">Inspeção/Fiscalização de Fabricação</h3>
-								<h5 class="category">...</h5>
+								<!-- <h5 class="category">...</h5> -->
 							</div>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 animate-box">
-					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-services" onclick="BlurOn()">
-						<div class="image" style="background-image: url(images/image_6.jpg)"></div>
+					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-ultrassom" onclick="BlurOn()">
+						<div class="image" style="background-image: url(images/ultrasom.jpg)"></div>
 						<div class="v-align">
 							<div class="v-align-middle">
 								<h3 class="title">Ensaio por Ultrassom</h3>
-								<h5 class="category">...</h5>
+								<!-- <h5 class="category">...</h5> -->
 							</div>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 animate-box">
-					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-services" onclick="BlurOn()">
-						<div class="image" style="background-image: url(images/image_6.jpg)"></div>
+					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-soldagem" onclick="BlurOn()">
+						<div class="image" style="background-image: url(images/solda.jpg)"></div>
 						<div class="v-align">
 							<div class="v-align-middle">
 								<h3 class="title">Soldagem</h3>
-								<h5 class="category">...</h5>
+								<!-- <h5 class="category">...</h5> -->
 							</div>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 animate-box">
-					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-services" onclick="BlurOn()">
-						<div class="image" style="background-image: url(images/image_6.jpg)"></div>
+					<a href="#" class="item-grid text-center" data-toggle="modal" data-target="#modal-equipamentos" onclick="BlurOn()">
+						<div class="image" style="background-image: url(images/equipamentos.jpg)"></div>
 						<div class="v-align">
 							<div class="v-align-middle">
 								<h3 class="title">Equipamentos</h3>
-								<h5 class="category">...</h5>
+								<!-- <h5 class="category">...</h5> -->
 							</div>
 						</div>
 					</a>
@@ -297,64 +290,12 @@
 		</div>
 	</div>
 
-	<div id="fh5co-testimony-section" class="fh5co-light-grey-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
-					<h2>O que os clientes dizem?</h2>
-					<p>Feedback de clientes que já utilizaram nossos serviços.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-offset-0 to-animate">
-					<div class="wrap-testimony animate-box">
-						<div class="owl-carousel-fullwidth">
-							<div class="item">
-								<div class="testimony-slide active text-center">
-									<figure>
-										<img src="images/person1.jpg" alt="user">
-									</figure>
-									<blockquote>
-										<p>"O trabalho do Allan é sensacional, tudo ocorreu bem, recomendo a todos!"</p>
-									</blockquote>
-									<span>Túlio, <a href="#" class="twitter">CTO da Nestlé</a></span>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testimony-slide active text-center">
-									<figure>
-										<img src="images/person2.jpg" alt="user">
-									</figure>
-									<blockquote>
-										<p>"O trabalho do Allan é sensacional, tudo ocorreu bem, recomendo a todos!"</p>
-									</blockquote>
-									<span>Túlio, <a href="#" class="twitter">CTO da DPA</a></span>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testimony-slide active text-center">
-									<figure>
-										<img src="images/person3.jpg" alt="user">
-									</figure>
-									<blockquote>
-										<p>"O trabalho do Allan é sensacional, tudo ocorreu bem, recomendo a todos!"</p>
-									</blockquote>
-									<span>Túlio, <a href="#" class="twitter">CTO da Garoto</a></span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<div class="fh5co-cta" style="background-image: url(images/slide_2.jpg);">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="col-md-12 text-center animate-box">
 				<h3>Entre em contato e faça um orçamento</h3>
-				<p><a href="#" class="btn btn-primary btn-outline with-arrow">Pedir orçamento! <i class="icon-arrow-right"></i></a></p>
+				<p><a href="#" class="btn btn-primary btn-outline with-arrow">Solicitar orçamento <i class="icon-arrow-right"></i></a></p>
 			</div>
 		</div>
 	</div>
