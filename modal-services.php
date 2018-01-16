@@ -13,11 +13,43 @@
             </div>
             <div class="col-md-8">
               <article>
-                A Endoscopia Industrial, popularmente conhecida como videoscopia industrial e
-                tecnicamente chamada de boroscopia industrial, é uma técnica que possibilita o
-                acesso a locais de difícil acesso, através de uma sonda com câmera de alta resolução,
-                variados comprimentos e diâmetros, podendo ser articulada, semi-articulada, rígida ou semi-rígida.<br>
-                Ideal para cada uma das diferentes situações encontradas em campo.
+                A ENDALL INSPEÇÕES E SERVIÇOS  executa ativdades de Inspeção em
+                Tubulação com Videoscopia Industrial / Endoscopia Industrial, onde
+                identificamos possíveis vazamentos e difícil acesso em equipamentos
+                industriais, tubulação e galerias industrial, pluvial e sanitária.<br>
+                Executamos a atividade de Inspeção em Tubulação Videoscopia Industrial /
+                Endoscopia Industrial em:<br>
+                <ul>
+                  <li>- Turbinas</li>
+                  <li>- Tubulações de equipamentos</li>
+                  <li>- Trocadores de calor e condensadores</li>
+                  <li>- Tanques</li>
+                  <li>- Linhas de efluentes, água potável e incêndio</li>
+                  <li>- Vent</li>
+                  <li>- Entre outros</li>
+                </ul>           
+                A ENDALL INSPEÇÕES E SERVIÇOS   possui os mais modernos
+                equipamentos de Inspeção em Tubulação Videoscopia Industrial / Endoscopia
+                Industrial para atividade.<br>
+                Descrição dos equipamentos:<br>
+                <p>
+                  Aparelho de Videoscopia Industrial / Endoscopia Industrial comum com câmera de 6
+                  mm  para tubos e equipamentos com inspeção entre 6 mm a 40 mm e câmera
+                  de 23 mm para inspeção acima de 40 mm até 80 mm, 40 metros de cabo, foco
+                  180º e imagem HD.
+                </p>
+                <p>
+                  Aparelho de Videoscopia
+                  Industrial / Endoscopia Industrial especifico para tubos acima de 3 polegadas,
+                  tanques até 80 polegadas de diâmetro, 50 metros de cabo, rotação 360º ,
+                  imagem HD e Full HD.
+                </p>
+                <p>
+                  Aparelho de Videoscopia
+                  Industrial / Endoscopia Industrial especifico para tubos acima de 50 mm de
+                  diâmetro,  tanques até 200 polegadas , galerias de efluentes etc, 120 metros
+                  de cabo, rotação horizontal 360º , vertical  180º, imagem HD, Full HD e 4K.
+                </p>
               </article>
             </div>
           </div>

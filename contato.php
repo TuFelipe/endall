@@ -102,6 +102,7 @@
 						<li><i class="icon-whatsapp"></i>(19)99908-8253</li>
 						<li><i class="icon-whatsapp"></i>(19)97145-2400</li>
 						<li><i class="icon-envelope"></i><a href="#">contato@endall.com.br</a></li>
+						<li><i class="icon-envelope"></i><a href="#">allan@endall.com.br</a></li>
 						<li><i class="icon-globe"></i><a href="#">www.endall.com.br</a></li>
 					</ul>
 				</div>
